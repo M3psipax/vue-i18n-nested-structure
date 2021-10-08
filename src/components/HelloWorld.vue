@@ -1,5 +1,9 @@
 <template>
   <div class="hello">
+    {{ $t('general.stuff') }} <br>
+    {{ $t('something.stuff') }}<br>
+    {{ $t('woc.subLevel') }}<br>
+    {{ $t('woc.germany.germanyStuff.moreStuff') }}<br>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
